@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+import React from 'react';
+
+class ${1:CreateReactComponent} extends React.Component {
+  render() {
+    return ${SELECTION:<div>New React component</div>};
+  }
+}
+
+export default ${1:CreateReactComponent};
+
+]]></content>
+  <tabTrigger>CreateReactComponent</tabTrigger>
+  <description>Create React component</description>
+</snippet>

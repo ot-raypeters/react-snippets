@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+export const ${1:NEW_REDUX_ACTION} = '${1:NEW_REDUX_ACTION}';
+export const ${2:createReduxAction} = ($3) => {
+  return (dispatch) => {
+    dispatch({ TYPE: ${1:NEW_REDUX_ACTION}$4 });
+  };
+}
+]]></content>
+  <tabTrigger>CreateReduxAction</tabTrigger>
+  <description>Create Redux action</description>
+</snippet>

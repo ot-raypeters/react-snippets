@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+import { ${1:NEW_REDUX_ACTION} } from '../actions/${2:NewComponent}';
+
+const ${3:createReduxReducer} = (state, action) => {
+  switch (action.type) {
+    case ${1:NEW_REDUX_ACTION}:
+      return { ...state$4 };
+
+    default:
+      return state;
+  }
+};
+
+export default ${3:createReduxReducer};
+
+]]></content>
+  <tabTrigger>CreateReduxReducer</tabTrigger>
+  <description>Create Redux reducer</description>
+</snippet>
