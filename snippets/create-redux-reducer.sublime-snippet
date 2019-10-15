@@ -17,4 +17,5 @@ export default ${3:createReduxReducer};
 ]]></content>
   <tabTrigger>CreateReduxReducer</tabTrigger>
   <description>Create Redux reducer</description>
+  <scope>source.js</scope>
 </snippet>

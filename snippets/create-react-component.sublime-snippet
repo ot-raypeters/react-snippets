@@ -13,4 +13,5 @@ export default ${1:CreateReactComponent};
 ]]></content>
   <tabTrigger>CreateReactComponent</tabTrigger>
   <description>Create React component</description>
+  <scope>source.js</scope>
 </snippet>
